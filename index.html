@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Talk 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="event-card">
+  <h1>Career Talk 2026</h1>
+  <h2>Building Your Career in Tech</h2>
+
+  <p><strong>Date:</strong> 15 November 2026</p>
+  <p><strong>Time:</strong> 2:00 PM – 4:00 PM</p>
+  <p><strong>Venue:</strong> RM Hotel</p>
+    </div>
+
+
+  <h2>Registration Form</h2>
+
+  <form id="registrationForm">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <br><br>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" required>
+
+    <br><br>
+
+    <button type="submit">Register</button>
+
+  </form>
+
+  <p id="message"></p>
+
+  <h2>Participants</h2>
+
+  <p>Total Registrations: <span id="count">0</span></p>
+
+  <ul id="participantList"></ul>
+
+  <button id="downloadBtn">Download CSV</button>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
